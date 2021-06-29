@@ -29,11 +29,15 @@ del_flag|int(11)||||
 reg_date|date||○||
 
 **m_category**
+|属性名|型|PK|NN|FK|
+|:---|:---|:---|:---|:---|
 category_id|int(11)|○|○||
 name|varchar(20)||○||
 reg_date|date||○||
 
 **m_items**
+|属性名|型|PK|NN|FK|
+|:---|:---|:---|:---|:---|
 item_code|int(11)|○|○||
 item_name|varchar(50)||○||
 price|int(11)||○||
