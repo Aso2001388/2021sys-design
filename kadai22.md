@@ -23,3 +23,7 @@ customer_code|varchar(50)|○|○||
 pass|varchar(50)|○|○|○|
 name|varchar(20)||○||
 address|varchar(100)||○||
+tel|varchar(20)||○||
+mail|vachar(100)||○||
+del_flag|int(11)||||
+reg_date|date||○||
