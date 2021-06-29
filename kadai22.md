@@ -1,5 +1,5 @@
 # データベース詳細
-**1.d_purchase**
+**1. d_purchase**
 |属性名|型|PK|NN|FK|
 |:---|:---|:---|:---|:---|
 order_id|bigint(20)|○|○||
