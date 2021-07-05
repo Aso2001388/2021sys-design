@@ -26,16 +26,15 @@ package "ECサイト" as target_system {
     
     }
     
-     entity "カテゴリマスタ" as customer <m_category> <<M,MASTER_MARK_COLOR>> {
+    
+  }
+  entity "カテゴリマスタ" as customer <m_category> <<M,MASTER_MARK_COLOR>> {
         + category_id [PK]
         --
         name
         reg_date
     
     }
-  
-  }
-  
   
 @enduml
 ```
