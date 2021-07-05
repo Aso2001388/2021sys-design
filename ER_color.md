@@ -23,20 +23,8 @@ package "ECサイト" as target_system {
         mail
         del_flag
         reg_date
-    }
     
-     entity "顧客" as customer <m_customer> <<M,MASTER_MARK_COLO>> {
-        + customer_code [PK]
-        --
-        pass
-        name
-        address
-        tel
-        mail
-        del_flag
-        reg_date
     }
-    
   }
   
   
