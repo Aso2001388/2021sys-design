@@ -37,7 +37,7 @@ total_price
 }
 
 
-entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> {
+entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>>{
 +detail_id[PK]
 +order_id[PK]
 --
