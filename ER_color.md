@@ -70,9 +70,9 @@ reg_date
 
 
 
-
+顧客マスタ|○--|| 購入テーブル
 
 }
-  customer|○--|| d_purchase
+  
 @enduml
 ```
