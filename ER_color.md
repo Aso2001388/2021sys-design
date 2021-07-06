@@ -18,7 +18,7 @@ reg_date
 entity "購入テーブル" as d_purchase<d_purchase> {
 +order_id[PK]
 --
-customer_code
++customer_code[FK]
 purchase_date
 total_price
 }
