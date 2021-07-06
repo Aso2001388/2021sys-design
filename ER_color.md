@@ -28,10 +28,24 @@ entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> {
 +detail_id[PK]
 +order_id[PK]
 --
-customer_code
-purchase_date
-total_price
+item_code
+price
+num
 }
+
+
+entity "商品マスタ" as m_items<m_items> {
++item_code[PK]
+--
+item_name
+price
+category_id
+image
+detail
+del_flag
+reg_date
+}
+
 
 
 }
