@@ -23,6 +23,17 @@ purchase_date
 total_price
 }
 
+
+entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> {
++detail_id[PK]
++order_id[PK]
+--
+customer_code
+purchase_date
+total_price
+}
+
+
 }
   
 @enduml
