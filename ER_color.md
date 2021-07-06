@@ -3,8 +3,7 @@
 
 package "ECサイト" as target_system {
 
-entity "顧客マスタ" as customer<m_customers>
-<<M,MASTER_MARK_COLOR>> {
+entity "顧客マスタ" as customer<m_customers> {
 +customer_code[PK]
 --
 pass
@@ -16,8 +15,7 @@ del-flag
 reg_date
 }
 
-entity "購入テーブル" as customer<d_purchase>
-<<M,MASTER_MARK_COLOR>> {
+entity "購入テーブル" as custome<d_purchase> {
 +order_id[PK]
 --
 customer_code
