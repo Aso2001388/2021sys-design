@@ -28,7 +28,7 @@ del-flag
 reg_date
 }
 
-entity "購入テーブル" as d_purchase<d_purchase> {
+entity "購入テーブル" as d_purchase<d_purchase><<T,TRANSACTION_MARK_COLOR>> {
 +order_id[PK]
 --
 +customer_code[FK]
