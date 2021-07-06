@@ -28,7 +28,7 @@ entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> {
 +detail_id[PK]
 +order_id[PK]
 --
-item_code
++item_code[FK]
 price
 num
 }
@@ -39,10 +39,18 @@ entity "商品マスタ" as m_items<m_items> {
 --
 item_name
 price
-category_id
++category_id[FK]
 image
 detail
 del_flag
+reg_date
+}
+
+
+entity "カテゴリマスタ" as d_purchase_detail<d_purchase_detail> {
++category_id[PK]
+--
+name
 reg_date
 }
 
