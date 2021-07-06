@@ -15,7 +15,7 @@ del-flag
 reg_date
 }
 
-entity "購入テーブル" as custome<d_purchase> {
+entity "購入テーブル" as <d_purchase> {
 +order_id[PK]
 --
 customer_code
