@@ -60,7 +60,7 @@ reg_date
 }
 
 
-entity "カテゴリマスタ" as m_category <m_category> {
+entity "カテゴリマスタ" as m_category <m_category><<M,MASTER_MARK_COLOR>> {
 +category_id[PK]
 --
 name
