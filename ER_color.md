@@ -60,7 +60,7 @@ reg_date
 }
 
 
-entity "カテゴリマスタ" as d_purchase_detail<d_purchase_detail> {
+entity "カテゴリマスタ" as m_category <m_category> {
 +category_id[PK]
 --
 name
