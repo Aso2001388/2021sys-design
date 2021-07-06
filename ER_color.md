@@ -37,7 +37,7 @@ total_price
 }
 
 
-entity "購入詳細テーブル" as d_purchase_detail<d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>>{
+entity "購入詳細テーブル" as order_detail<d_purchase_detail> <<T,TRANSACTION_MARK_COLOR>>{
 +detail_id[PK]
 +order_id[PK]
 --
@@ -47,7 +47,7 @@ num
 }
 
 
-entity "商品マスタ" as m_items<m_items> <<M,MASTER_MARK_COLOR>>{
+entity "商品マスタ" as items<m_items> <<M,MASTER_MARK_COLOR>>{
 +item_code[PK]
 --
 item_name
@@ -60,7 +60,7 @@ reg_date
 }
 
 
-entity "カテゴリマスタ" as m_category <m_category><<M,MASTER_MARK_COLOR>> {
+entity "カテゴリマスタ" as category <m_category><<M,MASTER_MARK_COLOR>> {
 +category_id[PK]
 --
 name
