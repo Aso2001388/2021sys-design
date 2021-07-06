@@ -67,7 +67,7 @@ name
 reg_date
 }
 
-customer}|○--○ d_purchase
+customer|○--○ d_purchase
 
 
 
