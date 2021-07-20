@@ -1,0 +1,6 @@
+```uml
+@startuml
+:weather=天気情報
+@enduml
+
+```
